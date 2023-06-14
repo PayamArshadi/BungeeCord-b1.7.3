@@ -78,6 +78,31 @@ public enum ChatColor
      * The special character which prefixes all chat colour codes. Use this if
      * you need to dynamically convert colour codes from your custom format.
      */
+        /**
+     * Represents magical characters that change around randomly.
+     */
+    MAGIC( 'k' ),
+    /**
+     * Makes the text bold.
+     */
+    BOLD( 'l' ),
+    /**
+     * Makes a line appear through the text.
+     */
+    STRIKETHROUGH( 'm' ),
+    /**
+     * Makes the text appear underlined.
+     */
+    UNDERLINE( 'n' ),
+    /**
+     * Makes the text italic.
+     */
+    ITALIC( 'o' ),
+    /**
+     * Resets all previous chat colors or formats.
+     */
+    RESET( 'r' );
+    
     public static final char COLOR_CHAR = '\u00A7';
     /**
      * Pattern to remove all colour codes.
