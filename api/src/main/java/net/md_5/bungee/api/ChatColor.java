@@ -73,7 +73,7 @@ public enum ChatColor
     /**
      * Represents white.
      */
-    WHITE( 'f' );
+    WHITE( 'f' ),
     /**
      * The special character which prefixes all chat colour codes. Use this if
      * you need to dynamically convert colour codes from your custom format.
