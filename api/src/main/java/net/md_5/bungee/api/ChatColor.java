@@ -78,7 +78,7 @@ public enum ChatColor
      * The special character which prefixes all chat colour codes. Use this if
      * you need to dynamically convert colour codes from your custom format.
      */
-        /**
+     /**
      * Represents magical characters that change around randomly.
      */
     MAGIC( 'k' ),
